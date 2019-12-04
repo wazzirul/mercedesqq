@@ -1,0 +1,161 @@
+.body {
+    background-image: url(../img/body-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.jackpot-area {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.jackpot-area .jackpot-money {
+    background-image: url(../img/gradient-bg.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: center center;
+    border-radius: 8px;
+}
+.jackpot-money .card-header {
+    text-align: center;
+    border-bottom: none;
+}
+.jackpot-money .card-header h3 {
+    font-size: 30px;
+    color: #ffffff;
+}
+.jackpot-money .card-body {
+    /* background: transparent; */
+    background-color: rgba(255, 255, 255, .125);
+    padding: 15px;
+    margin: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+.jackpot-money .transaction-box {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.jackpot-money .transaction-box > img {
+    margin-right: 10px;
+}
+.jackpot-money .transaction-type {
+    width: 100%;
+}
+.jackpot-money .transaction-type--top {
+    width: 100%;
+    background-image: url(../img/gradient-bg-sad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 2px 2px 2px 6px;
+}
+.jackpot-money .transaction-type--bottom {
+    width: 100%;
+    background-image: url(../img/gradient-bg-price.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: right;
+    padding: 2px 6px 2px 2px;
+}
+.jackpot-money .transaction-box p {
+    font-size: 25px;
+    line-height: 1;
+    color: #ffffff;
+    margin: 0;
+}
+
+.jackpot-value {
+    border-radius: 8px;
+    border: 3px solid #00569f;
+}
+.jackpot-value .card {
+    border: none;
+}
+.jackpot-value .card-header {
+    background-image: url(../img/jackpot-header-bg.png);
+    background-position: top center;
+    background-size: cover;
+    border: none;
+}
+.jackpot-value .card-header h3 {
+    font-family: "Bookman Old Style", Fallback, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+}
+.jackpot-value .card-body {
+    position: relative;
+}
+.jackpot-value .jackpot-value-icon {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: -40px;
+    right: 10px;
+}
+.jackpot-value .jackpot-value-icon--domino {
+    height: 80px;
+    width: auto;
+}
+.jackpot-value p {
+    font-family: "Bookman Old Style", Fallback, sans-serif;
+    font-size: 30px;
+    color: #0c489a;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.web-description-box {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.web-description-box h3 {
+    font-family: "Arial", Fallback, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #00569e;
+}
+.web-description-box p {
+    font-family: "Arial", Fallback, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #001f38;
+}
+
+.web-footer {
+    justify-content: center;
+    text-align: center;
+}
+.web-footer .nav {
+    justify-content: center;
+    margin-bottom: .5em;
+}
+.web-footer .nav a {
+    font-family: "Arial", Fallback, sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+    color: #00569e;
+    border-right: 2px solid #001f38;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.web-footer .nav a:last-child {
+    border-right: none;
+}
+.web-footer-copyright p {
+    font-family: "Arial", Fallback, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #001f38;
+}
