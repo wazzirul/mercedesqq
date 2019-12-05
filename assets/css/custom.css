@@ -2,7 +2,7 @@
     background-image: url(../img/body-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: top -1rem center;
 }
 
 .jackpot-area {
@@ -26,9 +26,15 @@
     font-size: 30px;
     color: #ffffff;
 }
+
+@media only screen and (max-width: 1050px){
+    .jackpot-money .card-header h3 {
+        font-size: 22px;
+    }
+}
 .jackpot-money .card-body {
     /* background: transparent; */
-    background-color: rgba(255, 255, 255, .125);
+    background-color: rgba(255, 255, 255, .9);
     padding: 15px;
     margin: 0 10px 10px 10px;
     border-radius: 8px;
@@ -41,6 +47,12 @@
 }
 .jackpot-money .transaction-box > img {
     margin-right: 10px;
+}
+
+@media only screen and (max-width: 1050px){
+    .jackpot-money .transaction-box > img {
+        width: 40px;
+    }
 }
 .jackpot-money .transaction-type {
     width: 100%;
@@ -66,11 +78,24 @@
     text-align: right;
     padding: 2px 6px 2px 2px;
 }
+
+/* color name #0057a1   */
+
 .jackpot-money .transaction-box p {
     font-size: 25px;
     line-height: 1;
     color: #ffffff;
     margin: 0;
+}
+
+@media only screen and (max-width: 1050px){
+    .jackpot-money .transaction-box p {
+        font-size: 18px;
+    }
+}
+.jackpot-money .transaction-box .transaction-type--name{
+    color:#0057a1;
+    font-weight: 700;
 }
 
 .jackpot-value {
@@ -91,6 +116,11 @@
     font-weight: 400;
     font-size: 30px;
     color: #ffffff;
+}
+@media only screen and (max-width: 1050px){
+    .jackpot-value .card-header h3 {
+        font-size: 25px;
+    }
 }
 .jackpot-value .card-body {
     position: relative;
@@ -113,7 +143,11 @@
     line-height: 1;
     margin-bottom: 0;
 }
-
+@media only screen and (max-width: 1050px){
+    .jackpot-value p {
+        font-size: 25px;
+    }
+}
 .web-description-box {
     text-align: center;
     margin-bottom: 1em;
@@ -124,6 +158,11 @@
     font-weight: 700;
     color: #00569e;
 }
+@media only screen and (max-width: 1050px){
+    .web-description-box h3 {
+        font-size: 20px;
+    }
+}
 .web-description-box p {
     font-family: "Arial", Fallback, sans-serif;
     font-weight: 400;
@@ -131,7 +170,14 @@
     line-height: 1.5;
     color: #001f38;
 }
-
+@media only screen and (max-width: 1050px){
+    .web-description-box p {
+        font-size: 14px;
+    }
+}
+.web-description-box p span{
+    font-weight:600;
+}
 .web-footer {
     justify-content: center;
     text-align: center;
@@ -149,6 +195,17 @@
     border-right: 2px solid #001f38;
     padding-top: 2px;
     padding-bottom: 2px;
+    transition: all ease .3s;
+}
+
+.web-footer .nav a:hover{
+    color:#001f38;
+}
+
+@media only screen and (max-width: 1050px){
+    .web-footer .nav a {
+        font-size: 18px;
+    }
 }
 .web-footer .nav a:last-child {
     border-right: none;
@@ -158,4 +215,10 @@
     font-size: 16px;
     line-height: 1.2;
     color: #001f38;
+}
+
+@media only screen and (max-width: 1050px){
+    .web-footer .nav p {
+        font-size: 14px;
+    }
 }
