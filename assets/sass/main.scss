@@ -48,8 +48,18 @@ a:hover{
 //header
 .header{
     width:100%;
+
+
     background: rgb(60,99,130);
     background: linear-gradient(180deg, #418fce  0%, rgba(60,99,130,1) 55%, rgba(55,59,68,1) 90%);
+    
+    
+    background-image: url(../img/bg-header.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center center;
+
+
     min-height:14rem;
     height: auto;
 
@@ -402,6 +412,14 @@ a:hover{
             padding-top: 10px;
             background: #3c6382;
             background: linear-gradient(180deg, #3c6382  0%, #3c6382 55%, rgba(55,59,68,1) 90%);
+
+            
+            background-image: url(../img/bg-menu.png);
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-position: center center;
+
+
             cursor:pointer;
             opacity:.9;
             transition:all ease .15s;
@@ -418,6 +436,11 @@ a:hover{
                 line-height: 1px;
                 text-transform: uppercase;
                 color:white;
+
+                
+                background: linear-gradient(to bottom, #efefef 0% ,#efefef 50%,#afafaf 50% ,#afafaf 55% ,#efefef 80%,#efefef 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
 
                 
                 @media only screen and (max-width: $bp-large){
@@ -476,7 +499,30 @@ a:hover{
     //body inner
     .body-inner{
         height: auto;
-        min-height: 40rem;
+        //min-height: 40rem;
+        overflow: hidden;
+
+        .hero-img{
+            height:50rem;
+            width:100%;
+
+            
+            @media only screen and (max-width: $bp-large){
+                height:45rem;
+            }
+
+            @media only screen and (max-width: $bp-medium){
+                height:40rem;
+            }
+            
+            @media only screen and (max-width: $bp-small){
+                height:30rem;
+            }
+            
+            @media only screen and (max-width: $bp-smallest){
+                height:27rem;
+            }
+        }
     }
     
     
@@ -722,6 +768,11 @@ a:hover{
                 text-transform: uppercase;
                 font-size: 1.2rem;
                 font-style: italic;
+
+                
+                background: linear-gradient(to bottom, #efefef 0% ,#efefef 50%,#afafaf 50% ,#afafaf 55% ,#efefef 80%,#efefef 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
 
                 @media only screen and (max-width: 1050px){
                     font-size: 1.35rem;

@@ -25,6 +25,11 @@
 .jackpot-money .card-header h3 {
     font-size: 30px;
     color: #ffffff;
+
+    
+	background: linear-gradient(to bottom, #efefef 0% ,#efefef 50%,#afafaf 50% ,#afafaf 55% ,#efefef 80%,#efefef 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 1050px){
